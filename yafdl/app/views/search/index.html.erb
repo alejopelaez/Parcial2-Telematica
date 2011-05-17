@@ -1,0 +1,22 @@
+<h1>Search</h1>
+<div id="form">
+  <% form_tag(:action => :results) do%>
+    <%= label_tag "Field: " %>
+    <% @fields.each do |field| %>
+      <%= radio_button_tag "field", field, field == @default_field %>
+      <%= label_tag field %>
+    <% end %>
+    <br/><br/>
+    <%= label_tag "Term: " %>
+    <%= text_field_tag "term" %>
+    <br/><br/>
+    <%= label_tag "Digital library: " %>
+    <% @bidis.each do |bidi| %>
+      <br/><%= label_tag bidi %>
+      <%= radio_button_tag "bidi", bidi, bidi == @default_bidi %>    
+    <% end %>
+    <br/>
+    <%= submit_tag "Ok" %>
+  <% end %>
+  
+</div>

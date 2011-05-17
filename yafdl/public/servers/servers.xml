@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+  <bidi>
+    <name>EAFIT</name>
+    <protocol>SRW</protocol>
+    <url>http://localhost:9002</url>
+  </bidi>
+  <bidi>
+    <name>UdeA</name>
+    <protocol>SRW</protocol>
+    <url>http://localhost:9003</url>
+  </bidi>
+</servers>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record>
+  <title>Java</title>
+  <creator>Pedro Gomez</creator>
+  <creator>autor2</creator>
+  <subject>programacion</subject>
+  <subject>sistemas</subject>
+  <subject>lenguajes</subject>
+  <identifier>doi:1</identifier>
+  <url>http://localhost:9002/data/doc1.pdf</url>
+</record>
