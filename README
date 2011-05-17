@@ -28,7 +28,7 @@ Una vez instalada Ruby 1.9.2, se deben instalar las dependencias:
 
     rvm 1.9.2
     gem install bundler
-Ahora sí, en la entrega se tienen 4 carpetas:
+Ahora sí, en la entrega se tienen 3 carpetas:
 
   - yafdl
   - bidi_SRW
@@ -38,7 +38,8 @@ Se  debe ingresar primero a cada carpeta y correr el comando
 
     rvm 1.9.2
     bundle install
-Con esto ya quedan instaladas todas las dependencias necesarias. Luego se entra a cada bidi(en nuestro caso son solo 2) y en la primera (bidi_SRW) se ingresa el comando rails s -p 9002 -e production para iniciar un servidor en el puerto 9002 (porque eso fue lo que pusimos en los metadatos).
+Con esto ya quedan instaladas todas las dependencias necesarias. 
+Luego se entra a cada bidi(en nuestro caso son solo 2) y en la primera (bidi_SRW) se ingresa el comando rails s -p 9002 -e production para iniciar un servidor en el puerto 9002 (porque eso fue lo que pusimos en los metadatos).
 Para bidi_SRW lo mismo pero el comando sería  rails s -p 9003 -e production para correrlo en el puerto 9003.
 Sólo faltaría por correr el servidor yafdl, entonces  para esto se ingresa en esa carpeta y se ingresa el comando rails s como no se especifico puerto este corre en el 3000.
-Para ngresar por medio del browser se ingresa a la dirección “http://localhost:3000” esto inmediatamente llevará al ormulario de búsqueda, se ingresan los parámetros deseados y listo.
+Para ngresar por medio del browser se ingresa a la dirección “http://localhost:3000” esto inmediatamente llevará al formulario de búsqueda, se ingresan los parámetros deseados y listo.
